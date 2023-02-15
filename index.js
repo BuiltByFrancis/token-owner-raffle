@@ -33,6 +33,7 @@ async function main() {
     }
   }
 
+  console.log(`Picked ${winners} winners out of ${cleaned.length}`)
   console.log(result);
 }
 
